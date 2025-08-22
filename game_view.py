@@ -23,7 +23,7 @@ class GameView:
         if not model.run:
             if model.is_pass:
                 self.draw_text(surface, "：「您 的 餐 點 到 囉 !」", 40, RED, False, SCREEN_WIDTH/2, SCREEN_HEIGHT/2-80)
-                self.draw_text(surface, ":「謝 謝 ！ 」", 40, RED, False, SCREEN_WIDTH/2, SCREEN_HEIGHT/2-40)
+                self.draw_text(surface, ":「今 天 餐 好 像 特 別 早 到 ！ 」", 40, RED, False, SCREEN_WIDTH/2, SCREEN_HEIGHT/2-40)
                 self.draw_text(surface, "按 R 接 下 個 訂 單", 28, WHITE, False, SCREEN_WIDTH/2, SCREEN_HEIGHT/2)
             else:
                 self.draw_text(surface, ":「你 也 是 78 歲 ?」", 48, RED, False, SCREEN_WIDTH/2, SCREEN_HEIGHT/2-80)
